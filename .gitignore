@@ -1,0 +1,6 @@
+#環境変数、認証情報、npm installから行われるnode_modules、package-lock.jsonはバージョン管理外
+.env
+credentials.json
+/node_modules/*
+package-lock.json
+
