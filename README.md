@@ -26,7 +26,7 @@ NodePractice
 ┗.env ←追加
 ┗credentials.json  ←追加
 ```
-#ディスコードに接続するコマンド
+# ディスコードに接続するコマンド
 ```
 npm run discord
 ```
