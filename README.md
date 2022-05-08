@@ -18,13 +18,13 @@ DISCORD_TOKEN=<discordのトークン情報>
 上記2ファイルをREADME.mdと同ディレクトリに配置してね
 ```txt:ディレクトリ構造
 NodePractice
-┗fonts
-┗src
-┗.gitignore
-┗README.md
-┗package.json
-┗.env ←追加
-┗credentials.json  ←追加
+├fonts/
+├src/
+├.gitignore
+├README.md
+├package.json
+├.env ←追加
+└credentials.json  ←追加
 ```
 # ディスコードに接続するコマンド
 ```
