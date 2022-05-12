@@ -8,6 +8,11 @@ Nodejs練習用
 SPREADSHEET_ID=<googleスプレッドシートのファイルId>
 WORKSHEET_ID=<googleスプレッドシートのシートId>
 DISCORD_TOKEN=<discordのトークン情報>
+SALESFORCE_ORG_URL=<salesforce接続用ログインURL>
+SALESFORCE_ORG_USER_NAME=<salesforce接続用ユーザ名>
+SALESFORCE_ORG_USER_PW=<salesforce接続用ユーザPW>
+SALESFORCE_ORG_CONSUMER_KEY=<salesforce接続用アプリケーションコンシューマ鍵>
+SALESFORCE_ORG_CONSUMER_SECRET=<salesforce接続用アプリケーションコンシューマ秘密>
 ```
 
 ```credentials.json:credentials.json

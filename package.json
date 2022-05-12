@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "date-utils": "^1.2.21",
     "discord.js": "^12.5.3",
     "dotenv": "^16.0.0",
     "exports": "^0.0.1",
@@ -18,6 +19,7 @@
     "google-spreadsheet": "^3.2.0",
     "got": "^12.0.3",
     "jsdom": "^19.0.0",
+    "jsforce": "^1.11.0",
     "module": "^1.2.5",
     "pdfmake": "^0.2.5",
     "request": "^2.88.2",
