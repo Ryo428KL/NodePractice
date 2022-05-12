@@ -3,7 +3,8 @@ require('dotenv').config();
 let jsforce = require('jsforce');
 
 /**
- * 参考
+ * SalesforceにNode.jsからREST APIを使用してアクセスする
+ * 参考情報
  * https://qiita.com/na0AaooQ/items/5c088a68ae43a1e74c6a
  * https://qiita.com/TaaaZyyy/items/7feb7d03cb1f5248d2e9
  * https://developer.salesforce.com/docs/atlas.ja-jp.api_rest.meta/api_rest/quickstart_prereq.htm
@@ -35,13 +36,13 @@ const record = {
 };
 
 // 組織に接続
-conn.login(org_user_id, org_user_pw, function(err, res){
+conn.login(org_user_id, org_user_pw, (err, res) => {
     if(err){
         return console.log(err);
     }
 
     // カスタムオブジェクトに登録
-    conn.sobject(sObjName).create( record , function(err, res){
+    conn.sobject(sObjName).create( record , (err, res) => {
         if(err){
             return console.log(err);
         }
