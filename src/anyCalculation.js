@@ -24,7 +24,7 @@ const min = function(nums){
 /**
  * 与えられた数値群と数式で計算処理を行う
  * @param Nums Number型のみで構成される数値の配列
- * @param Formula String型の数式 Ave/AVE Max/MAX Min/MIN () + - * / を使用可能とする
+ * @param Formula String型の数式 Ave/AVE Max/MAX Min/MIN () + - * / 及び半角数字を使用可能とする
  * @return res 計算結果
  */
 exports.anyCalc = function(Nums, Formula){

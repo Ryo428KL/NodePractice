@@ -7,9 +7,9 @@ const Fomula1 = '(Max+MIN)/2';
 const Fomula2 = 'AVE/Max * 100';
 const Fomula3 = 'AVE/Min * 100';
 const Fomula4 = '(AVE/Min - AVE/Max) * 100'
-const FomulaErr1 = 'aaa/Min * 100'
-const FomulaErr2 = 'ABE/Min * 100'
-const FomulaErr3 = 'AVE/Minn * 100'
+const FomulaErr1 = 'aaa/Min * 100' // 置換元なし
+const FomulaErr2 = 'ABE/Min * 100' // 誤字1
+const FomulaErr3 = 'AVE/Minn * 100' // 誤字2
 
 // 実行
 const res1_1 = calc.anyCalc(Nums1, Fomula1);
