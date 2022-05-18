@@ -37,7 +37,11 @@ exports.anyCalc = function(Nums, Formula){
     const maxInsertedFomula = aveInsrtedFomula.replaceAll(/(Max|MAX)/g,maxNum); // 最大値
     const minInsertedFomula = maxInsertedFomula.replaceAll(/(Min|MIN)/g,minNum); // 最小値
     try{
-        return Function('return (' + minInsertedFomula + ');')();
+        const calcResult = Function('return (' + minInsertedFomula + ');')();
+        if(typeof calcResult !== 'Number'){
+            throw '計算結果が数値になる数式を設定してください:' + Formula;
+        }
+        return calcResult;
     }catch(error){
         console.log(error);
         return 0;
