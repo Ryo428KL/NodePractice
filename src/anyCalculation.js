@@ -1,4 +1,7 @@
-/* 平均値 */
+/**
+ * 平均値
+ * https://shanabrian.com/web/javascript/average.php
+ */
 const average = function(nums) {
 	if (typeof nums !== 'object' || nums.length === 0) return false;
 
