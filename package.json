@@ -23,6 +23,7 @@
     "module": "^1.2.5",
     "pdfmake": "^0.2.5",
     "request": "^2.88.2",
-    "require": "^2.4.20"
+    "require": "^2.4.20",
+    "tesseract.js": "^2.1.5"
   }
 }
