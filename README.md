@@ -35,3 +35,15 @@ NodePractice
 ```
 npm run discord
 ```
+# trailblazerからバッジ、ポイント、トレイル情報を取得
+1. .envファイルに下記を追加すること
+```
+TRAILBLAZER_URL=https://trailblazer.me/id/
+```
+2. csvファイル内容はdata/csv/sample.csvを参考にすること
+
+3. 下記コマンドで実行すること ※--mode=listで実行するとSF組織へ保存する
+```
+node src/getTrailblazerInf.js  --mode=user --id=<user id>
+node src/getTrailblazerInf.js  --mode=list --path=<path to csv>
+```

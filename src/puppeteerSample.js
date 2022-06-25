@@ -13,9 +13,9 @@ const puppeteer = require('puppeteer');
     //タブを開く
     const page = await browser.newPage();
     //指定したURLに遷移
-    await page.goto('https://qiita.com/hisashi_matsui');
+    await page.goto('https://www.google.com/?hl=ja');
     //スクショを撮り、ファイル名example.pngにする。
     await page.screenshot({ path: './img/Puppeteer/example.png' });
     //終了
     await browser.close();
-  })();
+})();
