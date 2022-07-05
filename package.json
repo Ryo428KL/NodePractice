@@ -22,11 +22,15 @@
     "jsdom": "^19.0.0",
     "jsforce": "^1.11.0",
     "module": "^1.2.5",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
     "pdfmake": "^0.2.5",
     "puppeteer": "^14.4.0",
     "request": "^2.88.2",
     "require": "^2.4.20",
     "tesseract.js": "^2.1.5",
+    "util": "^0.12.4",
+    "utils": "^0.3.1",
     "yargs": "^17.5.1"
   }
 }
